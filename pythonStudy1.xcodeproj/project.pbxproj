@@ -6,10 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		0FAB54D117B3A2A1004F4B3D /* test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
+		0FC5089917B8F11E00C7BBA0 /* defines.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = defines.py; sourceTree = "<group>"; };
+		0FC5089A17B8F13100C7BBA0 /* Player.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Player.py; sourceTree = "<group>"; };
+		0FC5089B17B9178200C7BBA0 /* interface.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = interface.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		0FAB54C517B3A0C1004F4B3D = {
 			isa = PBXGroup;
 			children = (
+				0FC5089B17B9178200C7BBA0 /* interface.py */,
+				0FC5089A17B8F13100C7BBA0 /* Player.py */,
+				0FC5089917B8F11E00C7BBA0 /* defines.py */,
+				0FAB54D117B3A2A1004F4B3D /* test.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -22,7 +33,8 @@
 			buildConfigurationList = 0FAB54CD17B3A0C1004F4B3D /* Build configuration list for PBXLegacyTarget "pythonStudy1" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/python2;
+			buildToolPath = "/usr/local/bin/python2.7-32";
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
 			name = pythonStudy1;
@@ -152,6 +164,7 @@
 				0FAB54CF17B3A0C1004F4B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
